@@ -692,10 +692,13 @@ h3 {
     font-size: 1.2rem;
     border: 2px solid rgb(34, 5, 59);
     padding: 10px;
+    
 }
 
 .github-link:hover {
     background: gold;
+    text-decoration: none;
+    
 }
 
 .project-image img {
