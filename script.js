@@ -37,10 +37,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-document.querySelector(".btn-more").addEventListener("click", function () {
-    var resumeUrl = 'https://drive.google.com/file/d/1xIvi1XNnVH-R7GY5Jmmbudxu8mZJVoEG/view?usp=sharing';
-    window.location.href = resumeUrl;
-});
+// document.querySelector(".btn-more").addEventListener("click", function () {
+//     var resumeUrl = 'https://drive.google.com/file/d/1xIvi1XNnVH-R7GY5Jmmbudxu8mZJVoEG/view?usp=sharing';
+//     window.location.href = resumeUrl;
+// });
 
 
 // --------------------------------------------HOME-----------------------------------------------------------------------
