@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("http://127.0.0.1:5000/api/footer-title") // Your actual API URL
+    fetch("https://your-app.onrender.com/api/footer-title") // Use your actual API URL
         .then(response => response.json())
         .then(data => {
             console.log("API Response:", data); // Debugging
@@ -151,6 +151,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error("Error fetching data:", error));
 });
+
 
 
 document.getElementById("contactForm").addEventListener("submit", function (event) {
